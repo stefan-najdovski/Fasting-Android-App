@@ -1,4 +1,4 @@
-# Fasting Tracker Android App
+# Fasting Tracker Android App [WIP]
 
 This is a simple and minimalistic Android app that helps you track your fasting. You can set a timer for your fasting duration and the app will notify you when you can break your fast.
 
@@ -9,6 +9,7 @@ This is a simple and minimalistic Android app that helps you track your fasting.
    - Written in Kotlin.
    
 ## TO DO:
+  - Test if it acctualy notifies you
   - Add History with some kind of database.
   - Fragments.
   - View Model implementation.
