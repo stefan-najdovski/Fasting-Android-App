@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="me.snajdovski.fasting.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/enter_fasting_duration"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/fasting_hours_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/hours_hint"
+            android:ems="10"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:autofillHints="Example: 16" />
+
+
+        <EditText
+            android:id="@+id/fasting_minutes_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/minutes_hint"
+            android:ems="10"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:autofillHints="Example 30" />
+
+
+        <EditText
+            android:id="@+id/fasting_seconds_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/seconds_hint"
+            android:ems="10"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/schedule_notification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_notification_button_label"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

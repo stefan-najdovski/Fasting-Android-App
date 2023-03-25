@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fasting</string>
+    <string name="seconds_label">Seconds</string>
+    <string name="hours_label">Hours</string>
+    <string name="hours_hint">Hours</string>
+    <string name="enter_fasting_duration">Enter Fasting Duration</string>
+    <string name="seconds_hint">Seconds</string>
+    <string name="schedule_notification_button_label">Schedule</string>
+    <string name="minutes_label">minutes</string>
+    <string name="minutes_hint">Minutes</string>
+</resources>
