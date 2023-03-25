@@ -60,7 +60,10 @@ class MainActivity : AppCompatActivity() {
         val totalDurationMillis =
             (fastingHours * 3600 + fastingMinutes * 60 + fastingSeconds) * 1000
 
-        val notificationIntent = Intent(this, NotificationReceiver::class.java)
+        val notificationIntent = Intent(this, NotificationReceiver::class.java).apply {
+            action = "me.snajdovski.fasting.NOTIFICATION"
+        }
+
         val pendingIntent = PendingIntent.getBroadcast(
             this,
             0,
